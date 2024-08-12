@@ -57,8 +57,22 @@ h2 {
 }
 
 .contentBox {
-    font-size: 2.4rem;
     padding: 2em 6em;
+}
+
+p.contentBox {
+    color: rgb(251, 94, 101);
+}
+
+#tm {
+    background: rgb(255, 221, 221);
+    border-top: 1px solid rgb(251, 201, 201);
+    color: #ff6767;
+}
+
+#mainFooter a#navText {
+    color: #ff6767;
+    font-wei
 }
 
 .fixed-top.scrolled {
@@ -67,7 +81,6 @@ h2 {
 }
 
 @media screen and (max-width:1199px) {
-
     #headingGroup {
         display:none;
     }
